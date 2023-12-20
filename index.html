@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <h1>Robocode Marketplace</h1>
 
-    <div id="cart">
-        <button id="cart-btn" onclick="openCart">
-            <img src="img/cart.png" alt="cart">
-        </button>
-    </div>
-     </header>
-     
- <main>
-    <div id="products-grid">
+        <div id="cart">
+            <button id="cart-btn" onclick="openCart()">
+                <img src="img/cart.png" alt="cart">
+            </button>
+            <div id="cart-products" class="hide">
+                Cart is empty
+            </div>
+        </div>
+    </header>
 
-    </div>
- </main>
-   
-    
+    <main>
+        <div id="products-grid">
+
+        </div>
+    </main>
+
+
     <script src="js.js"></script>
 </body>
+
 </html>
